@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <TextView
+        android:text="ONE"
+        android:id="@+id/TextView01"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:text="TWO"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:text="THREE"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:text="FOUR"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_toLeftOf="@+id/TextView05"
+        android:padding="20dp"
+        android:layout_centerVertical="true"></TextView>
+
+    <TextView
+        android:text="FIVE"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:text="SIX"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/TextView05"
+        android:background="#0f0"
+        android:padding="20dp"
+        android:layout_centerVertical="true"></TextView>
+
+     <TextView
+        android:text="SEVEN"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView07"
+        android:layout_above="@+id/TextView08"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:padding="20dp"></TextView>
+     
+    <TextView
+        android:text="EIGHT"
+        android:layout_height="wrap_content"
+        android:background="#0fF"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView08"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:padding="20dp"></TextView>
+
+</RelativeLayout>
